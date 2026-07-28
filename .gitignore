@@ -1,0 +1,12 @@
+# Windows NTFS alternate data streams, flattened into files on WSL/ext4
+# (Microsoft Purview Endpoint DLP metadata, Mark-of-the-Web, etc.)
+*:sec.endpointdlp
+*:Zone.Identifier
+
+# Claude Code local (machine-specific) settings — keep out of version control.
+# Shared project settings in .claude/settings.json are still tracked.
+.claude/settings.local.json
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
